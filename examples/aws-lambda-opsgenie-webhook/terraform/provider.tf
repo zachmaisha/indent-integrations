@@ -11,7 +11,7 @@ terraform {
     }
 
     aws = {
-      version = "~> 4.9"
+      version = "~> 5.0"
     }
   }
 }
