@@ -24,7 +24,7 @@ resource "aws_lambda_function" "lambda" {
   s3_key        = var.artifact.function_key
   memory_size   = local.lambda_memory
   handler       = "index.handle"
-  runtime       = "nodejs14.x"
+  runtime       = "nodejs20.x"
   timeout       = var.timeout
 
   layers = concat(
